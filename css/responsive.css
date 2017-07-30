@@ -1,0 +1,126 @@
+/*************************
+Responsive File
+*************************/
+@media (min-width: 0) and (max-width: 768px) {
+
+	#gallery-wrapper {
+		padding: 0 1.225em 2.5em;
+	}
+
+}
+
+@media (min-width: 480px) {
+	.profile {
+		float: left;
+		margin: 0 10% 80px 15%;
+	}
+}
+
+@media (min-width: 769px) {
+	#gallery-wrapper {
+		padding: 0 2.25em 4em;
+	}
+
+	.photo-container {
+		width: 48%;
+		float: left;
+		margin-left: 4%;
+	}
+
+/***************************************
+ABOUT PAGE 2 COLUMN LAYOUT
+***************************************/
+
+	#primary {
+		width: 50%;
+		float: left;
+		margin-right: 7.5%;
+	}
+
+	#secondary {
+		width: 40%;
+		float: right;
+
+
+	}
+
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+
+	.photo-container:nth-child(2n+1) {
+		margin-left: 0;
+		clear: left;
+	}
+}
+
+@media (min-width: 1025px) {
+	.photo-container {
+		width: 30.63973064%;
+	}
+	.photo-container:nth-child(3n+1) {
+		margin-left: 0;
+		clear: left;
+	}
+}
+
+
+
+
+
+/*************************
+3 * 5 = 15% (just needed for margins)
+100% - 15% = 85%
+85 / 3 = 28.3333333333
+(Calc width needed for 3 Column Layout)
+	*************************/
+
+/*************************
+Gallery Page
+*****************************/
+
+
+
+
+
+
+
+
+/*************************
+About Page
+*****************************/
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*****************************************************************
+
+#gallery li {
+		width: 28.3333%;
+	}
+}
+
+	#gallery li:nth-child(3n + 1) {
+		clear: left;
+	}
+
+
+
+nav {
+	background: none;
+	float: right;
+	font-size: 1.125em;
+	margin-right: 5%;
+	text-align: right;
+	width: 45%;
+
+}

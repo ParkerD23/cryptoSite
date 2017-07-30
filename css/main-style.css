@@ -1,0 +1,412 @@
+/**************************************
+BITCOINCARDS MAIN STYLES
+**************************************/
+
+
+@import "import-styles.css";
+
+* {
+	box-sizing: border-box;
+}
+
+
+body {
+
+	color: #878787;
+	font-family: 'Old Standard TT', serif;
+	font-size: 1em;
+}
+
+
+/***************************************
+GENERAL STYLING
+***************************************/
+
+h1 {
+
+	color: rgba (255, 255, 255, 1);
+}
+
+p {
+	font-size: 20px;
+}
+
+h2 {
+	font-size: 2.5em;
+	font-weight: lighter;
+
+}
+
+h3 {
+	color: #48525c;
+	font-size: 2rem;
+	margin: -12px 0 0;
+	font-weight: normal;
+}
+
+h4 {
+	text-align: center;
+}
+
+ul li,
+ol li,
+a:link, a:visited,
+a:hover, a:hover  {
+	list-style: none;
+	text-decoration: none;
+}
+
+
+a:link {
+	color: #FF9900;   /* #ffa949; */
+	font-size: 1.75rem;
+}
+
+a:visited {
+	color: #ffa949;
+}
+
+a:hover {
+	color: slategrey; /*rgba(255, 169, 73, .2)*/
+}
+
+a:active {
+	color: brickred;
+}
+
+nav {
+text-align: center;
+}
+
+img {
+	max-width: 100%;
+	/*margin-bottom: 20px;*/
+}
+
+header img {
+	width: 50px;
+
+}
+
+footer img {
+	width: 30px;
+	height: 30px;
+	margin: 0 5px;
+}
+
+/************************************
+LANDING PAGE STYLES
+************************************/
+
+.main-header {
+	background-color: #ffa949;
+	height: 800px;	/*850px*/
+	padding-top: 100px; /*170px*/
+	position: relative;
+	background:linear-gradient(#ffa949, transparent 50%),
+	linear-gradient(0deg, #fff, transparent 3%),
+				#ffa949 url('../imgs/mountains.jpg') no-repeat center;
+
+	background-size: cover;
+
+}
+
+.title {
+	color: #f90;
+	font-size: 4.5em;
+	text-shadow: 0 2px 1px #3b4b64;
+}
+
+.subtitle {
+	color: #32556B;
+	font-family: 'Lora', serif;
+
+}
+
+.arrow {
+	margin-top: 170px;
+}
+
+.main-header,
+.primary-content,
+.secondary-content {
+	text-align: center;
+}
+
+.primary-content {
+	width: 65%;
+	margin: auto;
+	max-width: 900px;
+}
+
+#intro {
+	margin-bottom: 5%;
+}
+
+.box {
+	color: white;
+	background-color: #434a52;
+	padding: 14% 22%;
+	border-top: 10px solid #ffa949;
+	box-shadow: 0 15px 20px -12px rgba(0,0,0, .8);
+	/*box-shadow: inset 0 0 50px 10px rgba(0,0,0, 1);*/
+}
+
+#reachout {
+	font-size: 2em;
+	font-weight: bold;
+	/*border-bottom: 3px solid;*/
+	font-family: 'Lora', serif;
+}
+
+.t-border {
+	border-top: 2px solid lightgrey;
+	margin-bottom: 2.5%;
+	width: 60%;
+	margin: auto;
+}
+
+.secondary-content {
+	padding: 10px 0;
+	margin-bottom: 2%;
+
+}
+
+nav ul li,
+ul li {
+
+	display: inline;
+	padding: 0 12px;
+	border-left: solid 2px;
+	/*border-right: solid 2px;*/
+
+}
+
+li:nth-child(1) {
+	border-left: none;
+}
+
+.secondary-content ul li a {
+	text-decoration: none;
+}
+
+ol li {
+	font-size: 1.15em;
+}
+
+/**************************************
+LANDING PAGE'S 2 FLOATED COLUMNS
+**************************************/
+
+.first,
+.second {
+	width: 46.5%;
+}
+
+.first {
+	float: left;
+}
+
+.second {
+	float: right;
+}
+
+.group:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+
+
+#page-bottom {
+	border-bottom: solid 10px #ffa949;
+}
+
+
+/**************************************
+ MAIN CONTENT PAGES STYLES
+ *************************************/
+
+.page-header {
+
+	background-color: #0f5eab;
+	height: 700px;	/*850px*/
+	padding-bottom: 170px; /*170px*/
+	position: relative;
+
+	background: linear-gradient(#fff, transparent 50%),
+				#ffa949 url('../imgs/path.jpg') no-repeat center;
+	background-size: cover;
+	text-align: center;
+}
+
+#wrapper {
+	text-align: center;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 900px;
+}
+
+#wrapper h2 {
+	color: #32556B;
+
+}
+
+section#primary {
+
+}
+
+.bear {
+	color: white;
+	background: #434a52 url('../imgs/bear.jpg') no-repeat center /cover;
+	text-align: left;
+	margin: auto;
+	padding-bottom: 18% 24%;
+	border-top: 10px solid #ffa949;
+	box-shadow: 0 15px 20px -12px rgba(0,0,0, .8);
+	/*box-shadow: inset 0 0 50px 10px rgba(0,0,0, 1);*/
+	border-radius: 50px 10px;
+}
+
+.bear p {
+	color: #fff;
+	padding-bottom: 15px;
+
+}
+
+.page-footer {
+	font-size: 1.15em;
+	text-align: center;
+	clear: both;
+	padding-top: 50px;
+	color: #ccc;
+}
+
+.page-footer img {
+	width: 30px;
+	height: 30px;
+	margin: 0 5px;
+}
+
+
+/*************************************
+GALLERY PAGE STYLES
+*************************************/
+
+/* -------Page Containers----------*/
+
+#gallery-wrapper {
+	max-width: 1260px;
+	margin: auto;
+	width: 94.02985075%;
+	background: #fff;
+}
+
+.content-header {
+	text-align: center;
+	padding: 0;
+}
+
+.photo-container {
+	text-align: center;
+	margin-bottom: 4em;
+}
+
+/*--------Page Elements-----------*/
+
+.name {
+	font-size: 1.65em;
+	font-weight: 800;
+	margin: 0 0 1.5em;
+	line-height: 1;
+}
+
+.name span {
+	font-weight: 300;
+	margin-left: -7px;
+	color: #32556B;
+}
+
+.logo {
+	width: 45px;
+	margin-bottom: .4em;
+}
+
+.photo {
+	position: relative;
+	line-height: 0;
+	margin-bottom: 2em;
+	overflow: hidden;
+
+}
+
+.button {
+	width: 70%;
+	font-weight: 700;
+	display: block;
+	text-decoration: none;
+	text-transform: uppercase;
+	padding: 10px 0;
+	margin: auto;
+	border-radius: .5em;
+	font: 1em/1.5 'Open Sans', sans-serif;
+}
+
+
+/*----------Photo Overlay-----------*/
+
+.photo-overlay {
+	color: #fff;
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	padding-left: 20px;
+	padding-right: 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background: rgba(0,0,0, .65);
+
+}
+
+.photo-overlay h3, .photo-overlay p {
+	color: white;
+}
+
+
+
+/* ---- Float clearfix ---- */
+
+.clearfix::after {
+	content: " ";
+	display: table;
+	clear: both;
+}
+
+
+/*************************************
+ABOUT PAGE STYLES
+*************************************/
+#first {
+	border-left: none;
+}
+
+#about-intro {
+	margin-left: 5%;
+	color: #32556B;
+}
+
+
+.profile {
+	border-radius: 100%;
+	box-shadow: 0 0 25px -5px rgba(0,0,0, .8);
+}
+
+
+
+
